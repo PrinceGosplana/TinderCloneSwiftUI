@@ -14,6 +14,7 @@
 		8A40D1D92BD2AD1500185F15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40D1D82BD2AD1500185F15 /* Preview Assets.xcassets */; };
 		8A9CE5592BD3BF5F002C8EB1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8A9CE5582BD3BF5F002C8EB1 /* FirebaseAuth */; };
 		8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5642BD3C0B0002C8EB1 /* MainTabView.swift */; };
+		8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5672BD3C442002C8EB1 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8A40D1D52BD2AD1500185F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A40D1D82BD2AD1500185F15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A9CE5642BD3C0B0002C8EB1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		8A9CE5672BD3C442002C8EB1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		8A9CE5612BD3C01E002C8EB1 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				8A9CE5662BD3C436002C8EB1 /* View */,
 			);
 			path = Cards;
 			sourceTree = "<group>";
@@ -161,6 +164,14 @@
 			children = (
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		8A9CE5662BD3C436002C8EB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE5672BD3C442002C8EB1 /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +253,7 @@
 			files = (
 				8A40D1D42BD2AD1200185F15 /* ContentView.swift in Sources */,
 				8A40D1D22BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift in Sources */,
+				8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */,
 				8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
