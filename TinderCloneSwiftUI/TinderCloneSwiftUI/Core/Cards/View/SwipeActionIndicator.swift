@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct SwipeActionIndicator: View {
+
+    @Binding var xOffset: CGFloat
+
     var body: some View {
         HStack {
             Text("LIKE")
@@ -20,6 +23,7 @@ struct SwipeActionIndicator: View {
                         .frame(width: 100, height: 48)
                 }
                 .rotationEffect(.degrees(-45))
+                .opacity(Double(xOffset / SizeConstants.screenCutoff))
 
             Spacer()
 
@@ -33,11 +37,12 @@ struct SwipeActionIndicator: View {
                         .frame(width: 100, height: 48)
                 }
                 .rotationEffect(.degrees(45))
+                .opacity(Double(xOffset / SizeConstants.screenCutoff) * -1)
         }
         .padding(40)
     }
 }
 
 #Preview {
-    SwipeActionIndicator()
+    SwipeActionIndicator(xOffset: .constant(20))
 }

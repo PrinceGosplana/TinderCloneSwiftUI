@@ -17,6 +17,7 @@
 		8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5672BD3C442002C8EB1 /* CardView.swift */; };
 		8A9CE56A2BD3CDA6002C8EB1 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5692BD3CDA6002C8EB1 /* UserInfo.swift */; };
 		8A9CE5882BD43A38002C8EB1 /* SwipeActionIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5872BD43A38002C8EB1 /* SwipeActionIndicator.swift */; };
+		8A9CE58B2BD43DE9002C8EB1 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE58A2BD43DE9002C8EB1 /* SizeConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8A9CE5672BD3C442002C8EB1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8A9CE5692BD3CDA6002C8EB1 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		8A9CE5872BD43A38002C8EB1 /* SwipeActionIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicator.swift; sourceTree = "<group>"; };
+		8A9CE58A2BD43DE9002C8EB1 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		8A9CE55E2BD3BFF4002C8EB1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8A9CE5892BD43DDB002C8EB1 /* Constants */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -178,6 +181,14 @@
 				8A9CE5872BD43A38002C8EB1 /* SwipeActionIndicator.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8A9CE5892BD43DDB002C8EB1 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE58A2BD43DE9002C8EB1 /* SizeConstants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 				8A40D1D22BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift in Sources */,
 				8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */,
 				8A9CE56A2BD3CDA6002C8EB1 /* UserInfo.swift in Sources */,
+				8A9CE58B2BD43DE9002C8EB1 /* SizeConstants.swift in Sources */,
 				8A9CE5882BD43A38002C8EB1 /* SwipeActionIndicator.swift in Sources */,
 				8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */,
 			);
