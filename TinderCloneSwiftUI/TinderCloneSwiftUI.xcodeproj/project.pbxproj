@@ -16,6 +16,7 @@
 		8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5642BD3C0B0002C8EB1 /* MainTabView.swift */; };
 		8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5672BD3C442002C8EB1 /* CardView.swift */; };
 		8A9CE56A2BD3CDA6002C8EB1 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5692BD3CDA6002C8EB1 /* UserInfo.swift */; };
+		8A9CE5882BD43A38002C8EB1 /* SwipeActionIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5872BD43A38002C8EB1 /* SwipeActionIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8A9CE5642BD3C0B0002C8EB1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		8A9CE5672BD3C442002C8EB1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		8A9CE5692BD3CDA6002C8EB1 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		8A9CE5872BD43A38002C8EB1 /* SwipeActionIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				8A9CE5672BD3C442002C8EB1 /* CardView.swift */,
 				8A9CE5692BD3CDA6002C8EB1 /* UserInfo.swift */,
+				8A9CE5872BD43A38002C8EB1 /* SwipeActionIndicator.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				8A40D1D22BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift in Sources */,
 				8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */,
 				8A9CE56A2BD3CDA6002C8EB1 /* UserInfo.swift in Sources */,
+				8A9CE5882BD43A38002C8EB1 /* SwipeActionIndicator.swift in Sources */,
 				8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
