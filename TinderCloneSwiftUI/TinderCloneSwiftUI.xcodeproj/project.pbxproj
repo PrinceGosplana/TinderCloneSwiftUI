@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A3FD9742BD3A78600FE5358 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A3FD9732BD3A78600FE5358 /* GoogleService-Info.plist */; };
 		8A40D1D22BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40D1D12BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift */; };
 		8A40D1D42BD2AD1200185F15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A40D1D32BD2AD1200185F15 /* ContentView.swift */; };
 		8A40D1D62BD2AD1500185F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40D1D52BD2AD1500185F15 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A3FD9732BD3A78600FE5358 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8A40D1CE2BD2AD1200185F15 /* TinderCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinderCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A40D1D12BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderCloneSwiftUIApp.swift; sourceTree = "<group>"; };
 		8A40D1D32BD2AD1200185F15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 				8A40D1D12BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift */,
 				8A40D1D32BD2AD1200185F15 /* ContentView.swift */,
 				8A40D1D52BD2AD1500185F15 /* Assets.xcassets */,
+				8A3FD9732BD3A78600FE5358 /* GoogleService-Info.plist */,
 				8A40D1D72BD2AD1500185F15 /* Preview Content */,
 			);
 			path = TinderCloneSwiftUI;
@@ -130,6 +133,7 @@
 			files = (
 				8A40D1D92BD2AD1500185F15 /* Preview Assets.xcassets in Resources */,
 				8A40D1D62BD2AD1500185F15 /* Assets.xcassets in Resources */,
+				8A3FD9742BD3A78600FE5358 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
