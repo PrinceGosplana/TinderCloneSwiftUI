@@ -16,6 +16,8 @@ struct CardView: View {
                 .scaledToFill()
                 .frame(width: cardWidth, height: cardHeight)
                 .clipShape(RoundedRectangle(cornerRadius: 10))
+
+            UserInfo()
         }
     }
 }
