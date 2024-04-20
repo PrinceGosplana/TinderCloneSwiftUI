@@ -13,6 +13,7 @@
 		8A40D1D62BD2AD1500185F15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40D1D52BD2AD1500185F15 /* Assets.xcassets */; };
 		8A40D1D92BD2AD1500185F15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A40D1D82BD2AD1500185F15 /* Preview Assets.xcassets */; };
 		8A9CE5592BD3BF5F002C8EB1 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8A9CE5582BD3BF5F002C8EB1 /* FirebaseAuth */; };
+		8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5642BD3C0B0002C8EB1 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8A40D1D32BD2AD1200185F15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A40D1D52BD2AD1500185F15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A40D1D82BD2AD1500185F15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A9CE5642BD3C0B0002C8EB1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		8A9CE55F2BD3C00E002C8EB1 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				8A9CE5642BD3C0B0002C8EB1 /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			files = (
 				8A40D1D42BD2AD1200185F15 /* ContentView.swift in Sources */,
 				8A40D1D22BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift in Sources */,
+				8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
