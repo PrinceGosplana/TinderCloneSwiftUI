@@ -14,11 +14,12 @@ struct CardView: View {
             Image(.meganFox1)
                 .resizable()
                 .scaledToFill()
-                .frame(width: cardWidth, height: cardHeight)
-                .clipShape(RoundedRectangle(cornerRadius: 10))
 
             UserInfo()
+                .padding(.horizontal)
         }
+        .frame(width: cardWidth, height: cardHeight)
+        .clipShape(RoundedRectangle(cornerRadius: 10))
     }
 }
 
