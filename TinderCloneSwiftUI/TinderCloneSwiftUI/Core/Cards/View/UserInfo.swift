@@ -45,6 +45,6 @@ struct UserInfo: View {
     }
 }
 
-#Preview(traits: .sizeThatFitsLayout) {
+#Preview {
     UserInfo(user: MockData.users[1])
 }

@@ -30,7 +30,7 @@ private extension CardImageIndicator {
     }
 }
 
-#Preview(traits: .sizeThatFitsLayout) {
+#Preview {
     CardImageIndicator(currentImageIndex: 1, imageCount: 3)
         .preferredColorScheme(.dark)
 }
