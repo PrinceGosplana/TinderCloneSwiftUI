@@ -21,14 +21,14 @@ struct CardView: View {
             ZStack(alignment: .top) {
                 Image(user.profileImageURLs[currentImageIndex])
                     .resizable()
-                .scaledToFill()
-                .frame(width: SizeConstants.cardWidth, height: SizeConstants.cardHeight)
-                .overlay {
-                    ImageScrollingOverlay(
-                        currentImageIndex: $currentImageIndex,
-                        imageCount: imageCount
-                    )
-                }
+                    .scaledToFill()
+                    .frame(width: SizeConstants.cardWidth, height: SizeConstants.cardHeight)
+                    .overlay {
+                        ImageScrollingOverlay(
+                            currentImageIndex: $currentImageIndex,
+                            imageCount: imageCount
+                        )
+                    }
 
                 CardImageIndicator(
                     currentImageIndex: currentImageIndex,
@@ -71,17 +71,33 @@ private extension CardView {
     }
 
     func swipeRight() {
-        xOffset = 500
-        degrees = 12
-
-        viewModel.removeCard(model)
+        if #available(iOS 17.0, *) {
+            withAnimation {
+                xOffset = 500
+                degrees = 12
+            } completion: {
+                viewModel.removeCard(model)
+            }
+        } else {
+            xOffset = 500
+            degrees = 12
+            viewModel.removeCard(model)
+        }
     }
 
     func swipeLeft() {
-        xOffset = -500
-        degrees = -12
-
-        viewModel.removeCard(model)
+        if #available(iOS 17.0, *) {
+            withAnimation {
+                xOffset = -500
+                degrees = -12
+            } completion: {
+                viewModel.removeCard(model)
+            }
+        } else {
+            xOffset = -500
+            degrees = -12
+            viewModel.removeCard(model)
+        }
     }
 }
 
