@@ -14,7 +14,7 @@ enum TabbarType: Int {
 struct MainTabView: View {
     var body: some View {
         TabView {
-            CardView()
+            CardStack()
                 .tabItem { Image(systemName: "flame") }
                 .tag(TabbarType.swiping)
 
