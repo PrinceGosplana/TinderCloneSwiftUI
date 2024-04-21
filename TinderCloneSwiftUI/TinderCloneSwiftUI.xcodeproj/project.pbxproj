@@ -21,6 +21,7 @@
 		8A9CE58D2BD4E528002C8EB1 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE58C2BD4E528002C8EB1 /* ImageScrollingOverlay.swift */; };
 		8A9CE58F2BD51BBE002C8EB1 /* CardImageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE58E2BD51BBD002C8EB1 /* CardImageIndicator.swift */; };
 		8A9CE5912BD54264002C8EB1 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5902BD54264002C8EB1 /* CardStack.swift */; };
+		8A9CE5952BD5451E002C8EB1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5942BD5451E002C8EB1 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		8A9CE58C2BD4E528002C8EB1 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		8A9CE58E2BD51BBD002C8EB1 /* CardImageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicator.swift; sourceTree = "<group>"; };
 		8A9CE5902BD54264002C8EB1 /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
+		8A9CE5942BD5451E002C8EB1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		8A9CE55D2BD3BFEA002C8EB1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				8A9CE5922BD5450A002C8EB1 /* Users */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -198,6 +201,22 @@
 				8A9CE58A2BD43DE9002C8EB1 /* SizeConstants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		8A9CE5922BD5450A002C8EB1 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE5932BD54513002C8EB1 /* Model */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		8A9CE5932BD54513002C8EB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE5942BD5451E002C8EB1 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +306,7 @@
 				8A9CE58B2BD43DE9002C8EB1 /* SizeConstants.swift in Sources */,
 				8A9CE5882BD43A38002C8EB1 /* SwipeActionIndicator.swift in Sources */,
 				8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */,
+				8A9CE5952BD5451E002C8EB1 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
