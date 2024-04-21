@@ -6,7 +6,7 @@
 //
 
 
-struct User: Identifiable {
+struct User: Identifiable, Hashable {
     let id: String
     let fullName: String
     var age: Int

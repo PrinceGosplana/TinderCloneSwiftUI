@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+@MainActor
 final class CardsViewModel: ObservableObject {
     @Published var cardModels = [CardModel]()
 
@@ -24,5 +25,10 @@ final class CardsViewModel: ObservableObject {
         } catch {
             print("Failed to fetch cards with error \(error.localizedDescription)")
         }
+    }
+
+    func removeCard(_ card: CardModel) {
+        guard let index = cardModels.firstIndex(where: { $0.id == card.id }) else { return }
+        cardModels.remove(at: index)
     }
 }
