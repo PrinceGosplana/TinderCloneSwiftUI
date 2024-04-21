@@ -23,6 +23,9 @@
 		8A9CE5912BD54264002C8EB1 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5902BD54264002C8EB1 /* CardStack.swift */; };
 		8A9CE5952BD5451E002C8EB1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5942BD5451E002C8EB1 /* User.swift */; };
 		8A9CE5982BD5499D002C8EB1 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5972BD5499D002C8EB1 /* CardModel.swift */; };
+		8A9CE59B2BD54A25002C8EB1 /* CardsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE59A2BD54A25002C8EB1 /* CardsViewModel.swift */; };
+		8A9CE59E2BD54AE5002C8EB1 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE59D2BD54AE5002C8EB1 /* CardService.swift */; };
+		8A9CE5A12BD54BB8002C8EB1 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5A02BD54BB8002C8EB1 /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		8A9CE5902BD54264002C8EB1 /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 		8A9CE5942BD5451E002C8EB1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8A9CE5972BD5499D002C8EB1 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		8A9CE59A2BD54A25002C8EB1 /* CardsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewModel.swift; sourceTree = "<group>"; };
+		8A9CE59D2BD54AE5002C8EB1 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		8A9CE5A02BD54BB8002C8EB1 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,7 @@
 		8A9CE55E2BD3BFF4002C8EB1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8A9CE59F2BD54BA4002C8EB1 /* Mock Data */,
 				8A9CE5892BD43DDB002C8EB1 /* Constants */,
 			);
 			path = Utils;
@@ -165,6 +172,8 @@
 		8A9CE5612BD3C01E002C8EB1 /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				8A9CE59C2BD54AD3002C8EB1 /* Service */,
+				8A9CE5992BD54A0D002C8EB1 /* ViewModel */,
 				8A9CE5962BD5498D002C8EB1 /* Model */,
 				8A9CE5662BD3C436002C8EB1 /* View */,
 			);
@@ -228,6 +237,30 @@
 				8A9CE5972BD5499D002C8EB1 /* CardModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8A9CE5992BD54A0D002C8EB1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE59A2BD54A25002C8EB1 /* CardsViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		8A9CE59C2BD54AD3002C8EB1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE59D2BD54AE5002C8EB1 /* CardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8A9CE59F2BD54BA4002C8EB1 /* Mock Data */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE5A02BD54BB8002C8EB1 /* MockData.swift */,
+			);
+			path = "Mock Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,8 +341,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9CE58F2BD51BBE002C8EB1 /* CardImageIndicator.swift in Sources */,
+				8A9CE59E2BD54AE5002C8EB1 /* CardService.swift in Sources */,
 				8A9CE58D2BD4E528002C8EB1 /* ImageScrollingOverlay.swift in Sources */,
 				8A40D1D42BD2AD1200185F15 /* ContentView.swift in Sources */,
+				8A9CE5A12BD54BB8002C8EB1 /* MockData.swift in Sources */,
 				8A40D1D22BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift in Sources */,
 				8A9CE5912BD54264002C8EB1 /* CardStack.swift in Sources */,
 				8A9CE5982BD5499D002C8EB1 /* CardModel.swift in Sources */,
@@ -317,6 +352,7 @@
 				8A9CE56A2BD3CDA6002C8EB1 /* UserInfo.swift in Sources */,
 				8A9CE58B2BD43DE9002C8EB1 /* SizeConstants.swift in Sources */,
 				8A9CE5882BD43A38002C8EB1 /* SwipeActionIndicator.swift in Sources */,
+				8A9CE59B2BD54A25002C8EB1 /* CardsViewModel.swift in Sources */,
 				8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */,
 				8A9CE5952BD5451E002C8EB1 /* User.swift in Sources */,
 			);
