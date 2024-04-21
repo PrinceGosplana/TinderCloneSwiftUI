@@ -40,6 +40,9 @@ struct CardView: View {
 
             UserInfo(user: user)
         }
+        .onReceive(viewModel.$buttonSwipeAction, perform: { action in
+            onReceiveSwipeAction(action)
+        })
         .frame(width: SizeConstants.cardWidth, height: SizeConstants.cardHeight)
         .clipShape(RoundedRectangle(cornerRadius: 10))
         .offset(x: xOffset)
@@ -97,6 +100,21 @@ private extension CardView {
             xOffset = -500
             degrees = -12
             viewModel.removeCard(model)
+        }
+    }
+
+    func onReceiveSwipeAction(_ action: SwipeAction?) {
+        guard let action else { return }
+
+        let topCard = viewModel.cardModels.last
+
+        if topCard == model {
+            switch action {
+            case .reject:
+                swipeLeft()
+            case .like:
+                swipeRight()
+            }
         }
     }
 }
