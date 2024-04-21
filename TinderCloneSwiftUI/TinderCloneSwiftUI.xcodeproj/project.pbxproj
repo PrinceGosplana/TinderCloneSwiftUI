@@ -20,6 +20,7 @@
 		8A9CE58B2BD43DE9002C8EB1 /* SizeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE58A2BD43DE9002C8EB1 /* SizeConstants.swift */; };
 		8A9CE58D2BD4E528002C8EB1 /* ImageScrollingOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE58C2BD4E528002C8EB1 /* ImageScrollingOverlay.swift */; };
 		8A9CE58F2BD51BBE002C8EB1 /* CardImageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE58E2BD51BBD002C8EB1 /* CardImageIndicator.swift */; };
+		8A9CE5912BD54264002C8EB1 /* CardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5902BD54264002C8EB1 /* CardStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		8A9CE58A2BD43DE9002C8EB1 /* SizeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizeConstants.swift; sourceTree = "<group>"; };
 		8A9CE58C2BD4E528002C8EB1 /* ImageScrollingOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollingOverlay.swift; sourceTree = "<group>"; };
 		8A9CE58E2BD51BBD002C8EB1 /* CardImageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImageIndicator.swift; sourceTree = "<group>"; };
+		8A9CE5902BD54264002C8EB1 /* CardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				8A9CE58E2BD51BBD002C8EB1 /* CardImageIndicator.swift */,
+				8A9CE5902BD54264002C8EB1 /* CardStack.swift */,
 				8A9CE5672BD3C442002C8EB1 /* CardView.swift */,
 				8A9CE58C2BD4E528002C8EB1 /* ImageScrollingOverlay.swift */,
 				8A9CE5872BD43A38002C8EB1 /* SwipeActionIndicator.swift */,
@@ -278,6 +281,7 @@
 				8A9CE58D2BD4E528002C8EB1 /* ImageScrollingOverlay.swift in Sources */,
 				8A40D1D42BD2AD1200185F15 /* ContentView.swift in Sources */,
 				8A40D1D22BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift in Sources */,
+				8A9CE5912BD54264002C8EB1 /* CardStack.swift in Sources */,
 				8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */,
 				8A9CE56A2BD3CDA6002C8EB1 /* UserInfo.swift in Sources */,
 				8A9CE58B2BD43DE9002C8EB1 /* SizeConstants.swift in Sources */,

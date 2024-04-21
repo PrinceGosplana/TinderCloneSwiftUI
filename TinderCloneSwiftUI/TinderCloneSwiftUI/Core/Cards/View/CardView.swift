@@ -50,6 +50,24 @@ struct CardView: View {
 
 private extension CardView {
 
+    func returnToCenter() {
+        xOffset = 0
+        degrees = 0
+    }
+
+    func swipeRight() {
+        xOffset = 500
+        degrees = 12
+    }
+
+    func swipeLeft() {
+        xOffset = -500
+        degrees = -12
+    }
+}
+
+private extension CardView {
+
     func onDragChanges(_ value: _ChangedGesture<DragGesture>.Value) {
         xOffset = value.translation.width
         degrees = Double(value.translation.width / 25)
@@ -60,6 +78,13 @@ private extension CardView {
         if abs(width) <= abs(SizeConstants.screenCutoff) {
             xOffset = 0
             degrees = 0
+            return
+        }
+
+        if width >= SizeConstants.screenCutoff {
+            swipeRight()
+        } else {
+            swipeLeft()
         }
     }
 }
