@@ -22,7 +22,7 @@ struct MainTabView: View {
                 .tabItem { Image(systemName: "magnifyingglass") }
                 .tag(TabbarType.search)
 
-            Text("Inbox View")
+            InboxView()
                 .tabItem { Image(.messagesIcon)
                         .renderingMode(.template)
                 }
@@ -38,4 +38,5 @@ struct MainTabView: View {
 
 #Preview {
     MainTabView()
+        .environmentObject(MatchManager(service: MockMatchService()))
 }

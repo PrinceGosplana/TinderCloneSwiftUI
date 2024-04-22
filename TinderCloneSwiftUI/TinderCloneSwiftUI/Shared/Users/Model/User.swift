@@ -6,9 +6,16 @@
 //
 
 
-struct User: Identifiable, Hashable {
+struct User: Codable, Identifiable, Hashable {
     let id: String
     let fullName: String
     var age: Int
     var profileImageURLs: [String]
+}
+
+extension User {
+    var firstName: String {
+        let components = fullName.components(separatedBy: " ")
+        return components[0]
+    }
 }

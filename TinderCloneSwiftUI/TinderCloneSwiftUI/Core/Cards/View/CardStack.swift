@@ -8,21 +8,34 @@
 import SwiftUI
 
 struct CardStack: View {
-
+    
+    @EnvironmentObject var matchManager: MatchManager
+    @State private var showMatchView = false
     @StateObject var viewModel = CardsViewModel(service: CardService())
 
     var body: some View {
         NavigationStack {
-            VStack(spacing: 16) {
-                ZStack {
-                    ForEach(viewModel.cardModels) { card in
-                        CardView(viewModel: viewModel, model: card)
+            ZStack {
+                VStack(spacing: 16) {
+                    ZStack {
+                        ForEach(viewModel.cardModels) { card in
+                            CardView(viewModel: viewModel, model: card)
+                        }
+                    }
+                    if !viewModel.cardModels.isEmpty {
+                        SwipeActionButtons(viewModel: viewModel)
                     }
                 }
-                if !viewModel.cardModels.isEmpty {
-                    SwipeActionButtons(viewModel: viewModel)
+                .blur(radius: showMatchView ? 20 : 0)
+
+                if showMatchView {
+                    UserMatchView(show: $showMatchView)
                 }
             }
+            .animation(.easeInOut, value: showMatchView)
+            .onReceive(matchManager.$matchedUser, perform: { user in
+                showMatchView = user != nil
+            })
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     Image(.tinderLogo)
@@ -37,4 +50,5 @@ struct CardStack: View {
 
 #Preview {
     CardStack()
+        .environmentObject(MatchManager(service: MockMatchService()))
 }
