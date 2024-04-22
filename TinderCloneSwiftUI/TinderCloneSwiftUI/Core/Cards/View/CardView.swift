@@ -13,7 +13,8 @@ struct CardView: View {
     @State private var xOffset: CGFloat = 0
     @State private var degrees: Double = 0
     @State private var currentImageIndex = 0
-
+    @State private var showProfileModel = false
+    
     let model: CardModel
 
     var body: some View {
@@ -38,7 +39,10 @@ struct CardView: View {
                 SwipeActionIndicator(xOffset: $xOffset)
             }
 
-            UserInfo(user: user)
+            UserInfo(showProfileModal: $showProfileModel, user: user)
+        }
+        .fullScreenCover(isPresented: $showProfileModel) {
+            UserProfileView(user: user)
         }
         .onReceive(viewModel.$buttonSwipeAction, perform: { action in
             onReceiveSwipeAction(action)

@@ -28,7 +28,7 @@ struct MainTabView: View {
                 }
                 .tag(TabbarType.inbox)
 
-            Text("Profile View")
+            CurrentUserProfileView(user: MockData.users[2])
                 .tabItem { Image(systemName: "person") }
                 .tag(TabbarType.profile)
         }

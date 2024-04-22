@@ -19,7 +19,7 @@ struct MockData {
         .init(
             id: NSUUID().uuidString,
             fullName: "David Beckham",
-            age: 45,
+            age: 48,
             profileImageURLs: ["david-beckham-1", "david-beckham-2"]
         ),
         .init(

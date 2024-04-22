@@ -28,6 +28,12 @@
 		8A9CE5A12BD54BB8002C8EB1 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5A02BD54BB8002C8EB1 /* MockData.swift */; };
 		8A9CE5A32BD56DA8002C8EB1 /* SwipeActionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5A22BD56DA8002C8EB1 /* SwipeActionButtons.swift */; };
 		8A9CE5A52BD56F73002C8EB1 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5A42BD56F73002C8EB1 /* SwipeAction.swift */; };
+		8A9CE5A72BD5826F002C8EB1 /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5A62BD5826F002C8EB1 /* UserProfileView.swift */; };
+		8A9CE5AB2BD615C7002C8EB1 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5AA2BD615C7002C8EB1 /* CurrentUserProfileView.swift */; };
+		8A9CE5AD2BD61601002C8EB1 /* CurrentUserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5AC2BD61601002C8EB1 /* CurrentUserProfileHeader.swift */; };
+		8A9CE5B02BD63DF7002C8EB1 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5AF2BD63DF7002C8EB1 /* EditProfile.swift */; };
+		8A9CE5B22BD6409D002C8EB1 /* ProfileImageGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5B12BD6409D002C8EB1 /* ProfileImageGrid.swift */; };
+		8A9CE5B42BD64B19002C8EB1 /* EditProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9CE5B32BD64B19002C8EB1 /* EditProfileCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +58,12 @@
 		8A9CE5A02BD54BB8002C8EB1 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		8A9CE5A22BD56DA8002C8EB1 /* SwipeActionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionButtons.swift; sourceTree = "<group>"; };
 		8A9CE5A42BD56F73002C8EB1 /* SwipeAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		8A9CE5A62BD5826F002C8EB1 /* UserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		8A9CE5AA2BD615C7002C8EB1 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileView.swift; sourceTree = "<group>"; };
+		8A9CE5AC2BD61601002C8EB1 /* CurrentUserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileHeader.swift; sourceTree = "<group>"; };
+		8A9CE5AF2BD63DF7002C8EB1 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		8A9CE5B12BD6409D002C8EB1 /* ProfileImageGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageGrid.swift; sourceTree = "<group>"; };
+		8A9CE5B32BD64B19002C8EB1 /* EditProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +181,10 @@
 		8A9CE5602BD3C018002C8EB1 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				8A9CE5A92BD615AD002C8EB1 /* Current User Profile */,
+				8A9CE5AE2BD63DDC002C8EB1 /* Edit Profile */,
+				8A9CE5A82BD6159D002C8EB1 /* User profile */,
+				8A9CE5A62BD5826F002C8EB1 /* UserProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -269,6 +285,32 @@
 			path = "Mock Data";
 			sourceTree = "<group>";
 		};
+		8A9CE5A82BD6159D002C8EB1 /* User profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "User profile";
+			sourceTree = "<group>";
+		};
+		8A9CE5A92BD615AD002C8EB1 /* Current User Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE5AA2BD615C7002C8EB1 /* CurrentUserProfileView.swift */,
+				8A9CE5AC2BD61601002C8EB1 /* CurrentUserProfileHeader.swift */,
+			);
+			path = "Current User Profile";
+			sourceTree = "<group>";
+		};
+		8A9CE5AE2BD63DDC002C8EB1 /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8A9CE5AF2BD63DF7002C8EB1 /* EditProfile.swift */,
+				8A9CE5B12BD6409D002C8EB1 /* ProfileImageGrid.swift */,
+				8A9CE5B32BD64B19002C8EB1 /* EditProfileCell.swift */,
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -347,12 +389,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9CE58F2BD51BBE002C8EB1 /* CardImageIndicator.swift in Sources */,
+				8A9CE5AB2BD615C7002C8EB1 /* CurrentUserProfileView.swift in Sources */,
+				8A9CE5A72BD5826F002C8EB1 /* UserProfileView.swift in Sources */,
+				8A9CE5B42BD64B19002C8EB1 /* EditProfileCell.swift in Sources */,
 				8A9CE59E2BD54AE5002C8EB1 /* CardService.swift in Sources */,
 				8A9CE58D2BD4E528002C8EB1 /* ImageScrollingOverlay.swift in Sources */,
+				8A9CE5B02BD63DF7002C8EB1 /* EditProfile.swift in Sources */,
 				8A40D1D42BD2AD1200185F15 /* ContentView.swift in Sources */,
 				8A9CE5A12BD54BB8002C8EB1 /* MockData.swift in Sources */,
 				8A40D1D22BD2AD1200185F15 /* TinderCloneSwiftUIApp.swift in Sources */,
 				8A9CE5912BD54264002C8EB1 /* CardStack.swift in Sources */,
+				8A9CE5AD2BD61601002C8EB1 /* CurrentUserProfileHeader.swift in Sources */,
 				8A9CE5982BD5499D002C8EB1 /* CardModel.swift in Sources */,
 				8A9CE5A32BD56DA8002C8EB1 /* SwipeActionButtons.swift in Sources */,
 				8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */,
@@ -361,6 +408,7 @@
 				8A9CE5A52BD56F73002C8EB1 /* SwipeAction.swift in Sources */,
 				8A9CE5882BD43A38002C8EB1 /* SwipeActionIndicator.swift in Sources */,
 				8A9CE59B2BD54A25002C8EB1 /* CardsViewModel.swift in Sources */,
+				8A9CE5B22BD6409D002C8EB1 /* ProfileImageGrid.swift in Sources */,
 				8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */,
 				8A9CE5952BD5451E002C8EB1 /* User.swift in Sources */,
 			);
