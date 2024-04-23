@@ -20,10 +20,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 struct TinderCloneSwiftUIApp: App {
 
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-
+    @StateObject var authManager = AuthManager(service: AuthService())
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(authManager)
         }
     }
 }

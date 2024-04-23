@@ -9,10 +9,18 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @StateObject var matchManager = MatchManager(service: MatchService())
+    @EnvironmentObject var authManager: AuthManager
+
     var body: some View {
-        MainTabView()
-            .environmentObject(matchManager)
+        Group {
+            switch authManager.authState {
+            case .unauthenticated:
+                AuthenticationRootView()
+                    .environmentObject(AuthDataStore())
+            case .authenticated:
+                MainTabView()
+            }
+        }
     }
 }
 

@@ -12,6 +12,9 @@ enum TabbarType: Int {
 }
 
 struct MainTabView: View {
+
+    @StateObject var matchManager = MatchManager(service: MatchService())
+
     var body: some View {
         TabView {
             CardStack()
@@ -32,6 +35,7 @@ struct MainTabView: View {
                 .tabItem { Image(systemName: "person") }
                 .tag(TabbarType.profile)
         }
+        .environmentObject(matchManager)
         .tint(.primary)
     }
 }

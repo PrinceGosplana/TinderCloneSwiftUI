@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CurrentUserProfileView: View {
 
+    @EnvironmentObject var authManager: AuthManager
     @State private var showEditProfile = false
     let user: User
 
@@ -33,7 +34,7 @@ struct CurrentUserProfileView: View {
 
                         Spacer()
 
-                        Text("test@gmnail.com")
+                        Text("test")
                     }
                 }
 
@@ -47,7 +48,7 @@ struct CurrentUserProfileView: View {
 
                 Section {
                     Button("Log out") {
-
+                        Task { await authManager.signOut() }
                     }
                     .foregroundStyle(.red)
                 }
