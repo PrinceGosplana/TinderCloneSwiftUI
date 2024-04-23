@@ -54,6 +54,19 @@
 		8AD09D822BD7A7CE008E56D1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8AD09D812BD7A7CE008E56D1 /* FirebaseFirestore */; };
 		8AD09D842BD7A7DE008E56D1 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8AD09D832BD7A7DE008E56D1 /* FirebaseFirestoreSwift */; };
 		8AD09D862BD7A7EF008E56D1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8AD09D852BD7A7EF008E56D1 /* FirebaseStorage */; };
+		8AD09D8A2BD7ACE5008E56D1 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D892BD7ACE5008E56D1 /* WelcomeView.swift */; };
+		8AD09D8D2BD7B3B9008E56D1 /* FullName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D8C2BD7B3B9008E56D1 /* FullName.swift */; };
+		8AD09D902BD7B54E008E56D1 /* BackChevronButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D8F2BD7B54E008E56D1 /* BackChevronButton.swift */; };
+		8AD09D932BD7B86C008E56D1 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D922BD7B86C008E56D1 /* NextButton.swift */; };
+		8AD09D972BD7B9EA008E56D1 /* BirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D962BD7B9EA008E56D1 /* BirthdayView.swift */; };
+		8AD09D992BD7C764008E56D1 /* Occupation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D982BD7C764008E56D1 /* Occupation.swift */; };
+		8AD09D9B2BD7C7F7008E56D1 /* GenderSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D9A2BD7C7F7008E56D1 /* GenderSelection.swift */; };
+		8AD09D9D2BD7CA5D008E56D1 /* GenderType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D9C2BD7CA5D008E56D1 /* GenderType.swift */; };
+		8AD09D9F2BD7D10C008E56D1 /* SexualOrientationSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D9E2BD7D10C008E56D1 /* SexualOrientationSelection.swift */; };
+		8AD09DA12BD7D13E008E56D1 /* SexualOrientationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09DA02BD7D13E008E56D1 /* SexualOrientationType.swift */; };
+		8AD09DA32BD7D4BD008E56D1 /* AddProfilePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09DA22BD7D4BD008E56D1 /* AddProfilePhotos.swift */; };
+		8AD09DA62BD7EACC008E56D1 /* OnboardingSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09DA52BD7EACC008E56D1 /* OnboardingSteps.swift */; };
+		8AD09DA92BD7EB65008E56D1 /* OnboardingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09DA82BD7EB65008E56D1 /* OnboardingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -101,6 +114,19 @@
 		8A9CE5E12BD75DAB002C8EB1 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		8AD09D7C2BD76026008E56D1 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		8AD09D7F2BD79B22008E56D1 /* AuthDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthDataStore.swift; sourceTree = "<group>"; };
+		8AD09D892BD7ACE5008E56D1 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		8AD09D8C2BD7B3B9008E56D1 /* FullName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullName.swift; sourceTree = "<group>"; };
+		8AD09D8F2BD7B54E008E56D1 /* BackChevronButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackChevronButton.swift; sourceTree = "<group>"; };
+		8AD09D922BD7B86C008E56D1 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		8AD09D962BD7B9EA008E56D1 /* BirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayView.swift; sourceTree = "<group>"; };
+		8AD09D982BD7C764008E56D1 /* Occupation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Occupation.swift; sourceTree = "<group>"; };
+		8AD09D9A2BD7C7F7008E56D1 /* GenderSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderSelection.swift; sourceTree = "<group>"; };
+		8AD09D9C2BD7CA5D008E56D1 /* GenderType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderType.swift; sourceTree = "<group>"; };
+		8AD09D9E2BD7D10C008E56D1 /* SexualOrientationSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexualOrientationSelection.swift; sourceTree = "<group>"; };
+		8AD09DA02BD7D13E008E56D1 /* SexualOrientationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexualOrientationType.swift; sourceTree = "<group>"; };
+		8AD09DA22BD7D4BD008E56D1 /* AddProfilePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfilePhotos.swift; sourceTree = "<group>"; };
+		8AD09DA52BD7EACC008E56D1 /* OnboardingSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSteps.swift; sourceTree = "<group>"; };
+		8AD09DA82BD7EB65008E56D1 /* OnboardingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +166,6 @@
 			children = (
 				8A9CE55C2BD3BFC4002C8EB1 /* App */,
 				8A40D1D52BD2AD1500185F15 /* Assets.xcassets */,
-				8A40D1D32BD2AD1200185F15 /* ContentView.swift */,
 				8A9CE55B2BD3BFC1002C8EB1 /* Core */,
 				8A9CE55A2BD3BFBE002C8EB1 /* Extensions */,
 				8A3FD9732BD3A78600FE5358 /* GoogleService-Info.plist */,
@@ -178,9 +203,12 @@
 			children = (
 				8A9CE5D32BD69ECD002C8EB1 /* Authentication */,
 				8A9CE5612BD3C01E002C8EB1 /* Cards */,
+				8AD09D942BD7B8AA008E56D1 /* Components */,
 				8A9CE5622BD3C027002C8EB1 /* Masseging */,
 				8A9CE5B52BD64BD5002C8EB1 /* Matches */,
+				8AD09D872BD7ACBE008E56D1 /* Onboarding */,
 				8A9CE5602BD3C018002C8EB1 /* Profile */,
+				8AD09D8B2BD7B0D1008E56D1 /* Root */,
 				8A9CE5632BD3C03E002C8EB1 /* Search */,
 				8A9CE55F2BD3C00E002C8EB1 /* TabBar */,
 			);
@@ -291,6 +319,8 @@
 			isa = PBXGroup;
 			children = (
 				8A9CE5942BD5451E002C8EB1 /* User.swift */,
+				8AD09D9C2BD7CA5D008E56D1 /* GenderType.swift */,
+				8AD09DA02BD7D13E008E56D1 /* SexualOrientationType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -472,6 +502,79 @@
 			path = "Data Store";
 			sourceTree = "<group>";
 		};
+		8AD09D872BD7ACBE008E56D1 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				8AD09DA72BD7EB54008E56D1 /* Manager */,
+				8AD09DA42BD7EABA008E56D1 /* Model */,
+				8AD09D912BD7B85B008E56D1 /* Components */,
+				8AD09D882BD7ACD4008E56D1 /* Views */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		8AD09D882BD7ACD4008E56D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8AD09DA22BD7D4BD008E56D1 /* AddProfilePhotos.swift */,
+				8AD09D962BD7B9EA008E56D1 /* BirthdayView.swift */,
+				8AD09D8C2BD7B3B9008E56D1 /* FullName.swift */,
+				8AD09D9A2BD7C7F7008E56D1 /* GenderSelection.swift */,
+				8AD09D982BD7C764008E56D1 /* Occupation.swift */,
+				8AD09D9E2BD7D10C008E56D1 /* SexualOrientationSelection.swift */,
+				8AD09D892BD7ACE5008E56D1 /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8AD09D8B2BD7B0D1008E56D1 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8A40D1D32BD2AD1200185F15 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		8AD09D912BD7B85B008E56D1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8AD09D922BD7B86C008E56D1 /* NextButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8AD09D942BD7B8AA008E56D1 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8AD09D952BD7B8B4008E56D1 /* Navigation Bar */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8AD09D952BD7B8B4008E56D1 /* Navigation Bar */ = {
+			isa = PBXGroup;
+			children = (
+				8AD09D8F2BD7B54E008E56D1 /* BackChevronButton.swift */,
+			);
+			path = "Navigation Bar";
+			sourceTree = "<group>";
+		};
+		8AD09DA42BD7EABA008E56D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8AD09DA52BD7EACC008E56D1 /* OnboardingSteps.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8AD09DA72BD7EB54008E56D1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8AD09DA82BD7EB65008E56D1 /* OnboardingManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -552,15 +655,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AD09D992BD7C764008E56D1 /* Occupation.swift in Sources */,
+				8AD09DA32BD7D4BD008E56D1 /* AddProfilePhotos.swift in Sources */,
 				8A9CE5C22BD68B64002C8EB1 /* NewMatchesView.swift in Sources */,
+				8AD09D9D2BD7CA5D008E56D1 /* GenderType.swift in Sources */,
+				8AD09D9F2BD7D10C008E56D1 /* SexualOrientationSelection.swift in Sources */,
 				8A9CE5D82BD6B3F5002C8EB1 /* EmailView.swift in Sources */,
 				8A9CE58F2BD51BBE002C8EB1 /* CardImageIndicator.swift in Sources */,
 				8A9CE5AB2BD615C7002C8EB1 /* CurrentUserProfileView.swift in Sources */,
 				8A9CE5A72BD5826F002C8EB1 /* UserProfileView.swift in Sources */,
+				8AD09DA12BD7D13E008E56D1 /* SexualOrientationType.swift in Sources */,
 				8A9CE5D02BD696E7002C8EB1 /* MockMatchService.swift in Sources */,
+				8AD09D932BD7B86C008E56D1 /* NextButton.swift in Sources */,
 				8A9CE5B42BD64B19002C8EB1 /* EditProfileCell.swift in Sources */,
+				8AD09DA92BD7EB65008E56D1 /* OnboardingManager.swift in Sources */,
 				8A9CE59E2BD54AE5002C8EB1 /* CardService.swift in Sources */,
 				8A9CE58D2BD4E528002C8EB1 /* ImageScrollingOverlay.swift in Sources */,
+				8AD09D8D2BD7B3B9008E56D1 /* FullName.swift in Sources */,
+				8AD09D9B2BD7C7F7008E56D1 /* GenderSelection.swift in Sources */,
 				8A9CE5B02BD63DF7002C8EB1 /* EditProfile.swift in Sources */,
 				8A40D1D42BD2AD1200185F15 /* ContentView.swift in Sources */,
 				8A9CE5C92BD69037002C8EB1 /* Match.swift in Sources */,
@@ -574,15 +686,18 @@
 				8A9CE5982BD5499D002C8EB1 /* CardModel.swift in Sources */,
 				8A9CE5CC2BD6962B002C8EB1 /* MatchService.swift in Sources */,
 				8A9CE5B82BD64BF8002C8EB1 /* UserMatchView.swift in Sources */,
+				8AD09DA62BD7EACC008E56D1 /* OnboardingSteps.swift in Sources */,
 				8A9CE5E02BD75D91002C8EB1 /* MockAuthService.swift in Sources */,
 				8A9CE5A32BD56DA8002C8EB1 /* SwipeActionButtons.swift in Sources */,
 				8A9CE5D22BD69C2A002C8EB1 /* NewMatchItem.swift in Sources */,
 				8A9CE5682BD3C442002C8EB1 /* CardView.swift in Sources */,
 				8A9CE5C62BD68C7C002C8EB1 /* InboxView.swift in Sources */,
 				8A9CE5E22BD75DAB002C8EB1 /* AuthService.swift in Sources */,
+				8AD09D972BD7B9EA008E56D1 /* BirthdayView.swift in Sources */,
 				8A9CE5BA2BD651DB002C8EB1 /* UserIcon.swift in Sources */,
 				8A9CE5DE2BD75D26002C8EB1 /* AuthServiceProtocol.swift in Sources */,
 				8A9CE56A2BD3CDA6002C8EB1 /* UserInfo.swift in Sources */,
+				8AD09D8A2BD7ACE5008E56D1 /* WelcomeView.swift in Sources */,
 				8A9CE58B2BD43DE9002C8EB1 /* SizeConstants.swift in Sources */,
 				8A9CE5A52BD56F73002C8EB1 /* SwipeAction.swift in Sources */,
 				8A9CE5882BD43A38002C8EB1 /* SwipeActionIndicator.swift in Sources */,
@@ -591,6 +706,7 @@
 				8A9CE5D62BD69EF8002C8EB1 /* AuthenticationRootView.swift in Sources */,
 				8A9CE5652BD3C0B0002C8EB1 /* MainTabView.swift in Sources */,
 				8A9CE5952BD5451E002C8EB1 /* User.swift in Sources */,
+				8AD09D902BD7B54E008E56D1 /* BackChevronButton.swift in Sources */,
 				8A9CE5C02BD6832C002C8EB1 /* MatchManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,7 +766,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -707,7 +823,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -732,7 +848,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -765,7 +881,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

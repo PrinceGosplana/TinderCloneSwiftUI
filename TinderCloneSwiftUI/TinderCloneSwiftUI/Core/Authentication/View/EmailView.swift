@@ -9,7 +9,6 @@ import SwiftUI
 
 struct EmailView: View {
 
-    @Environment(\.dismiss) var dismiss
     @EnvironmentObject var authManager: AuthManager
     @EnvironmentObject var authDataStore: AuthDataStore
 
@@ -49,14 +48,7 @@ struct EmailView: View {
             }
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button {
-                        dismiss()
-                    } label: {
-                        Image(systemName: "chevron.left")
-                            .imageScale(.large)
-                            .fontWeight(.heavy)
-                            .foregroundStyle(Color(.primaryText))
-                    }
+                    BackChevronButton()
                 }
             }
         }

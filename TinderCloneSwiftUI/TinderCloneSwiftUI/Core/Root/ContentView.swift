@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
 
     @EnvironmentObject var authManager: AuthManager
+    @State private var didCompleteOnboarding = false
 
     var body: some View {
         Group {
@@ -18,7 +19,11 @@ struct ContentView: View {
                 AuthenticationRootView()
                     .environmentObject(AuthDataStore())
             case .authenticated:
-                MainTabView()
+                if didCompleteOnboarding {
+                    MainTabView()
+                } else {
+                    WelcomeView()
+                }
             }
         }
     }
@@ -26,4 +31,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(AuthManager(service: MockAuthService()))
 }

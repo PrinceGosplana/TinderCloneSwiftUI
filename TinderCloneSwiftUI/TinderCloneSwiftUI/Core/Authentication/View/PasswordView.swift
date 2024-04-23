@@ -10,7 +10,6 @@ import SwiftUI
 struct PasswordView: View {
 
     @EnvironmentObject var authManager: AuthManager
-    @Environment(\.dismiss) var dismiss
     @EnvironmentObject var authDataStore: AuthDataStore
 
     var body: some View {
@@ -49,14 +48,7 @@ struct PasswordView: View {
         }
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
-                Button {
-                    dismiss()
-                } label: {
-                    Image(systemName: "chevron.left")
-                        .imageScale(.large)
-                        .fontWeight(.heavy)
-                        .foregroundStyle(Color(.primaryText))
-                }
+                BackChevronButton()
             }
         }
     }
