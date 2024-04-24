@@ -45,6 +45,7 @@ struct Occupation: View {
                 BackChevronButton()
             }
         }
+        .navigationBarBackButtonHidden()
     }
 }
 

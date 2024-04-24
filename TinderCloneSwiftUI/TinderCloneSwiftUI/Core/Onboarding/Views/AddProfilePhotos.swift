@@ -78,6 +78,7 @@ struct AddProfilePhotos: View {
                 BackChevronButton()
             }
         }
+        .navigationBarBackButtonHidden()
     }
 }
 

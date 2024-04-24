@@ -49,6 +49,7 @@ struct BirthdayView: View {
             }
         }
         .padding()
+        .navigationBarBackButtonHidden()
     }
 }
 

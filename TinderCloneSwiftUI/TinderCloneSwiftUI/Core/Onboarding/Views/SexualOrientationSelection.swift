@@ -51,6 +51,7 @@ struct SexualOrientationSelection: View {
             }
         }
         .padding()
+        .navigationBarBackButtonHidden()
     }
 }
 

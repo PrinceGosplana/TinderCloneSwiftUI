@@ -45,6 +45,7 @@ struct GenderSelection: View {
                 BackChevronButton()
             }
         }
+        .navigationBarBackButtonHidden()
     }
 }
 

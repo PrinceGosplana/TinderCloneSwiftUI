@@ -45,6 +45,7 @@ struct FullName: View {
                 BackChevronButton()
             }
         }
+        .navigationBarBackButtonHidden()
     }
 }
 
